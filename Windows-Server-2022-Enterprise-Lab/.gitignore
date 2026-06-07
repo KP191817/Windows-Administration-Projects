@@ -1,0 +1,18 @@
+# Linux
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VMware
+*.lck
+*.log
+*.vmem
+*.vmsd
+*.vmss
+
+# Temporary files
+*.tmp
