@@ -84,15 +84,15 @@ Password security settings were reviewed to verify compliance with enterprise se
 
 ### Screenshot 01 - Default Domain Policy Opened
 
-![Screenshot 01](images/PHASE 1/01-default-domain-policy-opened.png)
+![Screenshot 01](images/PHASE%201/01-default-domain-policy-opened.png)
 
 ### Screenshot 02 - Password Policy Location
 
-![Screenshot 02](images/PHASE 1/02-password-policy-location.png)
+![Screenshot 02](images/PHASE%201/02-password-policy-location.png)
 
 ### Screenshot 03 - Password Policy Configured
 
-![Screenshot 03](images/PHASE 1/03-password-policy-configured.png)
+![Screenshot 03](images/PHASE%201/03-password-policy-configured.png)
 
 ---
 
@@ -157,19 +157,19 @@ Policy application was verified using GPResult.
 
 ### Screenshot 04 - Account Lockout Policy Location
 
-![Screenshot 04](images/PHASE 2/04-account-lockout-policy-location.png)
+![Screenshot 04](images/PHASE%202/04-account-lockout-policy-location.png)
 
 ### Screenshot 05 - Account Lockout Policy Configured
 
-![Screenshot 05](images/PHASE 2/05-account-lockout-policy-configured.png)
+![Screenshot 05](images/PHASE%202/05-account-lockout-policy-configured.png)
 
 ### Screenshot 06 - GPUpdate Successful
 
-![Screenshot 06](images/PHASE 2/06-gpupdate-successful.png)
+![Screenshot 06](images/PHASE%202/06-gpupdate-successful.png)
 
 ### Screenshot 07 - GPResult Verification
 
-![Screenshot 07](images/PHASE 2/07-gpresult-verification.png)
+![Screenshot 07](images/PHASE%202/07-gpresult-verification.png)
 
 ---
 
@@ -238,23 +238,23 @@ Event Viewer was reviewed to confirm audit event generation.
 
 ### Screenshot 08 - Security Hardening GPO Created
 
-![Screenshot 08](images/PHASE 3/08-security-hardening-gpo-created.png)
+![Screenshot 08](images/PHASE%203/08-security-hardening-gpo-created.png)
 
 ### Screenshot 09 - Audit Policy Location
 
-![Screenshot 09](images/PHASE 3/09-audit-policy-location.png)
+![Screenshot 09](images/PHASE%203/09-audit-policy-location.png)
 
 ### Screenshot 10 - Audit Policy Configured
 
-![Screenshot 10](images/PHASE 3/10-audit-policy-configured.png)
+![Screenshot 10](images/PHASE%203/10-audit-policy-configured.png)
 
 ### Screenshot 11 - Audit Policy GPUpdate
 
-![Screenshot 11](images/PHASE 3/11-audit-policy-gpupdate.png)
+![Screenshot 11](images/PHASE%203/11-audit-policy-gpupdate.png)
 
 ### Screenshot 12 - Security Event Log
 
-![Screenshot 12](images/PHASE 3/12-security-event-log.png)
+![Screenshot 12](images/PHASE%203/12-security-event-log.png)
 
 ---
 
@@ -320,19 +320,19 @@ Security signatures and threat definitions were reviewed to ensure current prote
 
 ### Screenshot 13 - Defender Overview
 
-![Screenshot 13](images/PHASE 4/13-defender-overview.png)
+![Screenshot 13](images/PHASE%204/13-defender-overview.png)
 
 ### Screenshot 14 - Defender Real-Time Protection
 
-![Screenshot 14](images/PHASE 4/14-defender-realtime-protection.png)
+![Screenshot 14](images/PHASE%204/14-defender-realtime-protection.png)
 
 ### Screenshot 15 - Defender PowerShell Status
 
-![Screenshot 15](images/PHASE 4/15-defender-powershell-status.png)
+![Screenshot 15](images/PHASE%204/15-defender-powershell-status.png)
 
 ### Screenshot 16 - Defender Updated Signatures
 
-![Screenshot 16](images/PHASE 4/16-defender-updated-signatures.png)
+![Screenshot 16](images/PHASE%204/16-defender-updated-signatures.png)
 
 ---
 
@@ -402,23 +402,23 @@ Domain, Private, and Public profiles were reviewed.
 
 ### Screenshot 17 - Firewall Console
 
-![Screenshot 17](images/PHASE 5/17-firewall-console.png)
+![Screenshot 17](images/PHASE%205/17-firewall-console.png)
 
 ### Screenshot 18 - Firewall Inbound Rules
 
-![Screenshot 18](images/PHASE 5/18-firewall-inbound-rules.png)
+![Screenshot 18](images/PHASE%205/18-firewall-inbound-rules.png)
 
 ### Screenshot 19 - Firewall Custom Rule
 
-![Screenshot 19](images/PHASE 5/19-firewall-custom-rule.png)
+![Screenshot 19](images/PHASE%205/19-firewall-custom-rule.png)
 
 ### Screenshot 20 - Firewall Policy Export
 
-![Screenshot 20](images/PHASE 5/20-firewall-policy-export.png)
+![Screenshot 20](images/PHASE%205/20-firewall-policy-export.png)
 
 ### Screenshot 21 - Firewall Profiles Enabled
 
-![Screenshot 21](images/PHASE 5/21-firewall-profiles-enabled.png)
+![Screenshot 21](images/PHASE%205/21-firewall-profiles-enabled.png)
 
 ---
 
@@ -496,31 +496,31 @@ Policies were refreshed to ensure settings were active.
 
 ### Screenshot 22 - User Rights Assignment
 
-![Screenshot 22](images/PHASE 6/22-user-rights-assignment.png)
+![Screenshot 22](images/PHASE%206/22-user-rights-assignment.png)
 
 ### Screenshot 23 - Allow Logon Locally
 
-![Screenshot 23](images/PHASE 6/23-allow-logon-locally.png)
+![Screenshot 23](images/PHASE%206/23-allow-logon-locally.png)
 
 ### Screenshot 24 - RDP Logon Rights
 
-![Screenshot 24](images/PHASE 6/24-rdp-logon-rights.png)
+![Screenshot 24](images/PHASE%206/24-rdp-logon-rights.png)
 
 ### Screenshot 25 - Shutdown System Rights
 
-![Screenshot 25](images/PHASE 6/25-shutdown-system-rights.png)
+![Screenshot 25](images/PHASE%206/25-shutdown-system-rights.png)
 
 ### Screenshot 26 - Backup Rights
 
-![Screenshot 26](images/PHASE 6/26-backup-rights.png)
+![Screenshot 26](images/PHASE%206/26-backup-rights.png)
 
 ### Screenshot 27 - Restore Rights
 
-![Screenshot 27](images/PHASE 6/27-restore-rights.png)
+![Screenshot 27](images/PHASE%206/27-restore-rights.png)
 
 ### Screenshot 28 - User Rights GPUpdate
 
-![Screenshot 28](images/PHASE 6/28-user-rights-gpupdate.png)
+![Screenshot 28](images/PHASE%206/28-user-rights-gpupdate.png)
 
 ---
 
@@ -594,27 +594,27 @@ Authentication activity was reviewed to validate event generation.
 
 ### Screenshot 29 - Advanced Audit Policy
 
-![Screenshot 29](images/PHASE 7/29-advanced-audit-policy.png)
+![Screenshot 29](images/PHASE%207/29-advanced-audit-policy.png)
 
 ### Screenshot 30 - Logon Audit Configured
 
-![Screenshot 30](images/PHASE 7/30-logon-audit-configured.png)
+![Screenshot 30](images/PHASE%207/30-logon-audit-configured.png)
 
 ### Screenshot 31 - Advanced Audit GPUpdate
 
-![Screenshot 31](images/PHASE 7/31-advanced-audit-gpupdate.png)
+![Screenshot 31](images/PHASE%207/31-advanced-audit-gpupdate.png)
 
 ### Screenshot 32a - AuditPol Verification
 
-![Screenshot 32a](images/PHASE 7/32-auditpol-verification(a).png)
+![Screenshot 32a](images/PHASE%207/32-auditpol-verification(a).png)
 
 ### Screenshot 32b - AuditPol Verification
 
-![Screenshot 32b](images/PHASE 7/32-auditpol-verification(b).png)
+![Screenshot 32b](images/PHASE%207/32-auditpol-verification(b).png)
 
 ### Screenshot 33 - Advanced Audit Events
 
-![Screenshot 33](images/PHASE 7/33-advanced-audit-events.png)
+![Screenshot 33](images/PHASE%207/33-advanced-audit-events.png)
 
 ---
 
@@ -684,23 +684,23 @@ A custom Event Viewer view was created to simplify monitoring of authentication 
 
 ### Screenshot 34 - Event Viewer Overview
 
-![Screenshot 34](images/PHASE 8/34-event-viewer-overview.png)
+![Screenshot 34](images/PHASE%208/34-event-viewer-overview.png)
 
 ### Screenshot 35 - Security Log Filtered
 
-![Screenshot 35](images/PHASE 8/35-security-log-filtered.png)
+![Screenshot 35](images/PHASE%208/35-security-log-filtered.png)
 
 ### Screenshot 36 - Event ID 4624
 
-![Screenshot 36](images/PHASE 8/36-event-id-4624.png)
+![Screenshot 36](images/PHASE%208/36-event-id-4624.png)
 
 ### Screenshot 37 - Event ID 4634
 
-![Screenshot 37](images/PHASE 8/37-event-id-4634.png)
+![Screenshot 37](images/PHASE%208/37-event-id-4634.png)
 
 ### Screenshot 38 - Custom View Created
 
-![Screenshot 38](images/PHASE 8/38-custom-view-created.png)
+![Screenshot 38](images/PHASE%208/38-custom-view-created.png)
 
 ---
 
@@ -775,35 +775,35 @@ The overall security configuration was reviewed to confirm successful implementa
 
 ### Screenshot 39 - GPResult Security GPO
 
-![Screenshot 39](images/PHASE 9/39-gpresult-security-gpo.png)
+![Screenshot 39](images/PHASE%209/39-gpresult-security-gpo.png)
 
 ### Screenshot 40 - Security Report HTML
 
-![Screenshot 40](images/PHASE 9/40-security-report-html.png)
+![Screenshot 40](images/PHASE%209/40-security-report-html.png)
 
 ### Screenshot 41a - Audit Policy Verification
 
-![Screenshot 41a](images/PHASE 9/41-audit-policy-verification(a).png)
+![Screenshot 41a](images/PHASE%209/41-audit-policy-verification(a).png)
 
 ### Screenshot 41b - Audit Policy Verification
 
-![Screenshot 41b](images/PHASE 9/41-audit-policy-verification(b).png)
+![Screenshot 41b](images/PHASE%209/41-audit-policy-verification(b).png)
 
 ### Screenshot 42 - Firewall Status
 
-![Screenshot 42](images/PHASE 9/42-firewall-status.png)
+![Screenshot 42](images/PHASE%209/42-firewall-status.png)
 
 ### Screenshot 43a - Defender Verification
 
-![Screenshot 43a](images/PHASE 9/43-defender-verification(a).png)
+![Screenshot 43a](images/PHASE%209/43-defender-verification(a).png)
 
 ### Screenshot 43b - Defender Verification
 
-![Screenshot 43b](images/PHASE 9/43-defender-verification(b).png)
+![Screenshot 43b](images/PHASE%209/43-defender-verification(b).png)
 
 ### Screenshot 44 - Final Security Overview
 
-![Screenshot 44](images/PHASE 9/44-final-security-overview.png)
+![Screenshot 44](images/PHASE%209/44-final-security-overview.png)
 
 ---
 
