@@ -6,6 +6,8 @@ This project focused on implementing and validating security hardening controls 
 
 Security controls were reviewed and verified through Group Policy, Windows Defender, Windows Firewall, Security Auditing, Advanced Audit Policies, Event Monitoring, and Security Verification procedures. The objective was to strengthen the security posture of the server while developing practical enterprise security administration skills commonly required in production environments.
 
+---
+
 ## Objectives
 
 * Review password security policies
@@ -18,17 +20,19 @@ Security controls were reviewed and verified through Group Policy, Windows Defen
 * Monitor security-related events
 * Perform security verification and reporting
 
+---
+
 ## Environment
 
-| Component         | Value                                   |
-| ----------------- | --------------------------------------- |
-| Server Name       | WS-DC01                                 |
-| Operating System  | Windows Server 2022 Standard Evaluation |
-| Domain            | corp.local                              |
-| Management Tool   | Group Policy Management                 |
-| Security Platform | Windows Defender                        |
-| Firewall          | Windows Firewall with Advanced Security |
-| Monitoring Tool   | Event Viewer                            |
+| Component | Value |
+|------------|--------|
+| Server Name | WS-DC01 |
+| Operating System | Windows Server 2022 Standard Evaluation |
+| Domain | corp.local |
+| Management Tool | Group Policy Management |
+| Security Platform | Windows Defender |
+| Firewall | Windows Firewall with Advanced Security |
+| Monitoring Tool | Event Viewer |
 
 ---
 
@@ -40,12 +44,16 @@ This phase focused on reviewing and validating password policy settings configur
 
 Strong password policies are one of the most important controls used to protect enterprise identities against unauthorized access and credential-based attacks.
 
+---
+
 ## Objectives
 
 * Verify password complexity requirements
 * Verify password history configuration
 * Review enterprise authentication controls
 * Confirm policy application
+
+---
 
 ## Implementation Steps
 
@@ -70,19 +78,23 @@ Computer Configuration
 
 Password security settings were reviewed to verify compliance with enterprise security standards.
 
+---
+
 ## Screenshots
 
 ### Screenshot 01 - Default Domain Policy Opened
 
-Default Domain Policy Opened
+![Screenshot 01](images/PHASE 1/01-default-domain-policy-opened.png)
 
 ### Screenshot 02 - Password Policy Location
 
-Password Policy Location
+![Screenshot 02](images/PHASE 1/02-password-policy-location.png)
 
 ### Screenshot 03 - Password Policy Configured
 
-Password Policy Configured
+![Screenshot 03](images/PHASE 1/03-password-policy-configured.png)
+
+---
 
 ## Results
 
@@ -90,6 +102,8 @@ Password Policy Configured
 * Enterprise authentication controls verified
 * Security baseline validated
 * Group Policy configuration confirmed
+
+---
 
 ## Skills Demonstrated
 
@@ -108,12 +122,16 @@ This phase focused on reviewing account lockout settings designed to protect the
 
 Account lockout controls help prevent repeated password guessing attempts by temporarily locking user accounts after a defined number of failed logon attempts.
 
+---
+
 ## Objectives
 
 * Verify account lockout settings
 * Review lockout threshold configuration
 * Review lockout duration settings
 * Confirm Group Policy application
+
+---
 
 ## Implementation Steps
 
@@ -133,23 +151,27 @@ Group Policy settings were refreshed to ensure current configurations were activ
 
 Policy application was verified using GPResult.
 
+---
+
 ## Screenshots
 
 ### Screenshot 04 - Account Lockout Policy Location
 
-Account Lockout Policy Location
+![Screenshot 04](images/PHASE 2/04-account-lockout-policy-location.png)
 
 ### Screenshot 05 - Account Lockout Policy Configured
 
-Account Lockout Policy Configured
+![Screenshot 05](images/PHASE 2/05-account-lockout-policy-configured.png)
 
 ### Screenshot 06 - GPUpdate Successful
 
-GPUpdate Successful
+![Screenshot 06](images/PHASE 2/06-gpupdate-successful.png)
 
 ### Screenshot 07 - GPResult Verification
 
-GPResult Verification
+![Screenshot 07](images/PHASE 2/07-gpresult-verification.png)
+
+---
 
 ## Results
 
@@ -157,6 +179,8 @@ GPResult Verification
 * Brute-force attack mitigation confirmed
 * Group Policy application validated
 * Authentication security controls reviewed
+
+---
 
 ## Skills Demonstrated
 
@@ -175,12 +199,16 @@ This phase focused on configuring and validating security auditing settings used
 
 Security auditing provides visibility into important events occurring within the Windows environment and supports operational monitoring and incident investigation.
 
+---
+
 ## Objectives
 
 * Configure audit policies
 * Verify event generation
 * Validate security logging
 * Confirm audit functionality
+
+---
 
 ## Implementation Steps
 
@@ -204,27 +232,31 @@ Group Policy settings were refreshed.
 
 Event Viewer was reviewed to confirm audit event generation.
 
+---
+
 ## Screenshots
 
 ### Screenshot 08 - Security Hardening GPO Created
 
-Security Hardening GPO Created
+![Screenshot 08](images/PHASE 3/08-security-hardening-gpo-created.png)
 
 ### Screenshot 09 - Audit Policy Location
 
-Audit Policy Location
+![Screenshot 09](images/PHASE 3/09-audit-policy-location.png)
 
 ### Screenshot 10 - Audit Policy Configured
 
-Audit Policy Configured
+![Screenshot 10](images/PHASE 3/10-audit-policy-configured.png)
 
 ### Screenshot 11 - Audit Policy GPUpdate
 
-Audit Policy GPUpdate
+![Screenshot 11](images/PHASE 3/11-audit-policy-gpupdate.png)
 
 ### Screenshot 12 - Security Event Log
 
-Security Event Log
+![Screenshot 12](images/PHASE 3/12-security-event-log.png)
+
+---
 
 ## Results
 
@@ -232,6 +264,8 @@ Security Event Log
 * Event generation verified
 * Security logging operational
 * Audit policy deployment confirmed
+
+---
 
 ## Skills Demonstrated
 
@@ -250,6 +284,8 @@ This phase focused on reviewing and validating Windows Defender Antivirus protec
 
 Windows Defender provides built-in endpoint protection against malware, ransomware, spyware, and other malicious software threats. Ensuring that Defender is operational and updated is a critical component of enterprise security.
 
+---
+
 ## Objectives
 
 * Verify Windows Defender operational status
@@ -257,6 +293,8 @@ Windows Defender provides built-in endpoint protection against malware, ransomwa
 * Review Defender health status
 * Verify signature updates
 * Validate endpoint protection readiness
+
+---
 
 ## Implementation Steps
 
@@ -276,23 +314,27 @@ PowerShell was used to verify Defender operational status and configuration.
 
 Security signatures and threat definitions were reviewed to ensure current protection.
 
+---
+
 ## Screenshots
 
 ### Screenshot 13 - Defender Overview
 
-Defender Overview
+![Screenshot 13](images/PHASE 4/13-defender-overview.png)
 
 ### Screenshot 14 - Defender Real-Time Protection
 
-Defender Real-Time Protection
+![Screenshot 14](images/PHASE 4/14-defender-realtime-protection.png)
 
 ### Screenshot 15 - Defender PowerShell Status
 
-Defender PowerShell Status
+![Screenshot 15](images/PHASE 4/15-defender-powershell-status.png)
 
 ### Screenshot 16 - Defender Updated Signatures
 
-Defender Updated Signatures
+![Screenshot 16](images/PHASE 4/16-defender-updated-signatures.png)
+
+---
 
 ## Results
 
@@ -300,6 +342,8 @@ Defender Updated Signatures
 * Real-time protection verified
 * Security signatures updated
 * Endpoint protection validated
+
+---
 
 ## Skills Demonstrated
 
@@ -318,6 +362,8 @@ This phase focused on reviewing Windows Firewall configuration and validating ho
 
 Windows Firewall provides an additional layer of defense by controlling inbound and outbound network traffic based on security rules and profiles.
 
+---
+
 ## Objectives
 
 * Verify firewall status
@@ -325,6 +371,8 @@ Windows Firewall provides an additional layer of defense by controlling inbound 
 * Review inbound rule configuration
 * Review custom firewall rules
 * Validate firewall protection
+
+---
 
 ## Implementation Steps
 
@@ -348,27 +396,31 @@ Firewall policy settings were exported for administrative review.
 
 Domain, Private, and Public profiles were reviewed.
 
+---
+
 ## Screenshots
 
 ### Screenshot 17 - Firewall Console
 
-Firewall Console
+![Screenshot 17](images/PHASE 5/17-firewall-console.png)
 
 ### Screenshot 18 - Firewall Inbound Rules
 
-Firewall Inbound Rules
+![Screenshot 18](images/PHASE 5/18-firewall-inbound-rules.png)
 
 ### Screenshot 19 - Firewall Custom Rule
 
-Firewall Custom Rule
+![Screenshot 19](images/PHASE 5/19-firewall-custom-rule.png)
 
 ### Screenshot 20 - Firewall Policy Export
 
-Firewall Policy Export
+![Screenshot 20](images/PHASE 5/20-firewall-policy-export.png)
 
 ### Screenshot 21 - Firewall Profiles Enabled
 
-Firewall Profiles Enabled
+![Screenshot 21](images/PHASE 5/21-firewall-profiles-enabled.png)
+
+---
 
 ## Results
 
@@ -376,6 +428,8 @@ Firewall Profiles Enabled
 * Firewall profiles verified
 * Rule configuration reviewed
 * Host-based protection validated
+
+---
 
 ## Skills Demonstrated
 
@@ -394,6 +448,8 @@ This phase focused on reviewing User Rights Assignment policies configured throu
 
 User Rights Assignments determine which users and groups are permitted to perform specific administrative and operational actions within the operating system.
 
+---
+
 ## Objectives
 
 * Review administrative privileges
@@ -401,6 +457,8 @@ User Rights Assignments determine which users and groups are permitted to perfor
 * Review shutdown permissions
 * Review backup and restore permissions
 * Validate privilege assignments
+
+---
 
 ## Implementation Steps
 
@@ -432,35 +490,39 @@ Restore-related privileges were reviewed.
 
 Policies were refreshed to ensure settings were active.
 
+---
+
 ## Screenshots
 
 ### Screenshot 22 - User Rights Assignment
 
-User Rights Assignment
+![Screenshot 22](images/PHASE 6/22-user-rights-assignment.png)
 
 ### Screenshot 23 - Allow Logon Locally
 
-Allow Logon Locally
+![Screenshot 23](images/PHASE 6/23-allow-logon-locally.png)
 
 ### Screenshot 24 - RDP Logon Rights
 
-RDP Logon Rights
+![Screenshot 24](images/PHASE 6/24-rdp-logon-rights.png)
 
 ### Screenshot 25 - Shutdown System Rights
 
-Shutdown System Rights
+![Screenshot 25](images/PHASE 6/25-shutdown-system-rights.png)
 
 ### Screenshot 26 - Backup Rights
 
-Backup Rights
+![Screenshot 26](images/PHASE 6/26-backup-rights.png)
 
 ### Screenshot 27 - Restore Rights
 
-Restore Rights
+![Screenshot 27](images/PHASE 6/27-restore-rights.png)
 
 ### Screenshot 28 - User Rights GPUpdate
 
-User Rights GPUpdate
+![Screenshot 28](images/PHASE 6/28-user-rights-gpupdate.png)
+
+---
 
 ## Results
 
@@ -468,6 +530,8 @@ User Rights GPUpdate
 * Administrative privileges verified
 * Backup and restore privileges reviewed
 * Security baseline validated
+
+---
 
 ## Skills Demonstrated
 
@@ -486,6 +550,8 @@ This phase focused on implementing Advanced Audit Policies to provide more granu
 
 Advanced Audit Policies allow administrators to monitor authentication activity, account management events, and other security-related operations with greater precision.
 
+---
+
 ## Objectives
 
 * Configure Advanced Audit Policies
@@ -493,6 +559,8 @@ Advanced Audit Policies allow administrators to monitor authentication activity,
 * Verify account management auditing
 * Validate audit policy deployment
 * Confirm event generation
+
+---
 
 ## Implementation Steps
 
@@ -520,31 +588,35 @@ Audit policies were verified using the auditpol command-line utility.
 
 Authentication activity was reviewed to validate event generation.
 
+---
+
 ## Screenshots
 
 ### Screenshot 29 - Advanced Audit Policy
 
-Advanced Audit Policy
+![Screenshot 29](images/PHASE 7/29-advanced-audit-policy.png)
 
 ### Screenshot 30 - Logon Audit Configured
 
-Logon Audit Configured
+![Screenshot 30](images/PHASE 7/30-logon-audit-configured.png)
 
 ### Screenshot 31 - Advanced Audit GPUpdate
 
-Advanced Audit GPUpdate
+![Screenshot 31](images/PHASE 7/31-advanced-audit-gpupdate.png)
 
 ### Screenshot 32a - AuditPol Verification
 
-AuditPol Verification
+![Screenshot 32a](images/PHASE 7/32-auditpol-verification(a).png)
 
 ### Screenshot 32b - AuditPol Verification
 
-AuditPol Verification
+![Screenshot 32b](images/PHASE 7/32-auditpol-verification(b).png)
 
 ### Screenshot 33 - Advanced Audit Events
 
-Advanced Audit Events
+![Screenshot 33](images/PHASE 7/33-advanced-audit-events.png)
+
+---
 
 ## Results
 
@@ -552,6 +624,8 @@ Advanced Audit Events
 * Logon auditing verified
 * Audit policy deployment validated
 * Security event generation confirmed
+
+---
 
 ## Skills Demonstrated
 
@@ -570,6 +644,8 @@ This phase focused on monitoring and analyzing security-related events using Eve
 
 Security event monitoring provides administrators with visibility into authentication activity, account usage, and operational security events occurring within the environment.
 
+---
+
 ## Objectives
 
 * Monitor security events
@@ -577,6 +653,8 @@ Security event monitoring provides administrators with visibility into authentic
 * Review security logs
 * Create custom monitoring views
 * Validate event collection
+
+---
 
 ## Implementation Steps
 
@@ -600,27 +678,31 @@ Event ID 4634 (Logoff) events were filtered and reviewed.
 
 A custom Event Viewer view was created to simplify monitoring of authentication activity.
 
+---
+
 ## Screenshots
 
 ### Screenshot 34 - Event Viewer Overview
 
-Event Viewer Overview
+![Screenshot 34](images/PHASE 8/34-event-viewer-overview.png)
 
 ### Screenshot 35 - Security Log Filtered
 
-Security Log Filtered
+![Screenshot 35](images/PHASE 8/35-security-log-filtered.png)
 
 ### Screenshot 36 - Event ID 4624
 
-Event ID 4624
+![Screenshot 36](images/PHASE 8/36-event-id-4624.png)
 
 ### Screenshot 37 - Event ID 4634
 
-Event ID 4634
+![Screenshot 37](images/PHASE 8/37-event-id-4634.png)
 
 ### Screenshot 38 - Custom View Created
 
-Custom View Created
+![Screenshot 38](images/PHASE 8/38-custom-view-created.png)
+
+---
 
 ## Results
 
@@ -628,6 +710,8 @@ Custom View Created
 * Authentication activity monitored
 * Event filtering validated
 * Custom monitoring view created
+
+---
 
 ## Skills Demonstrated
 
@@ -646,6 +730,8 @@ The final phase focused on validating all implemented security controls and gene
 
 Security verification ensures that deployed controls are functioning correctly and provides documentation that can be used for operational review and auditing purposes.
 
+---
+
 ## Objectives
 
 * Verify Security GPO deployment
@@ -654,6 +740,8 @@ Security verification ensures that deployed controls are functioning correctly a
 * Verify Defender protection
 * Generate security reports
 * Validate overall security posture
+
+---
 
 ## Implementation Steps
 
@@ -681,39 +769,43 @@ Windows Defender status was reviewed and validated.
 
 The overall security configuration was reviewed to confirm successful implementation.
 
+---
+
 ## Screenshots
 
 ### Screenshot 39 - GPResult Security GPO
 
-GPResult Security GPO
+![Screenshot 39](images/PHASE 9/39-gpresult-security-gpo.png)
 
 ### Screenshot 40 - Security Report HTML
 
-Security Report HTML
+![Screenshot 40](images/PHASE 9/40-security-report-html.png)
 
 ### Screenshot 41a - Audit Policy Verification
 
-Audit Policy Verification
+![Screenshot 41a](images/PHASE 9/41-audit-policy-verification(a).png)
 
 ### Screenshot 41b - Audit Policy Verification
 
-Audit Policy Verification
+![Screenshot 41b](images/PHASE 9/41-audit-policy-verification(b).png)
 
 ### Screenshot 42 - Firewall Status
 
-Firewall Status
+![Screenshot 42](images/PHASE 9/42-firewall-status.png)
 
 ### Screenshot 43a - Defender Verification
 
-Defender Verification
+![Screenshot 43a](images/PHASE 9/43-defender-verification(a).png)
 
 ### Screenshot 43b - Defender Verification
 
-Defender Verification
+![Screenshot 43b](images/PHASE 9/43-defender-verification(b).png)
 
 ### Screenshot 44 - Final Security Overview
 
-Final Security Overview
+![Screenshot 44](images/PHASE 9/44-final-security-overview.png)
+
+---
 
 ## Results
 
@@ -723,6 +815,8 @@ Final Security Overview
 * Defender protection verified
 * Security reporting completed
 * Security hardening implementation confirmed
+
+---
 
 ## Skills Demonstrated
 
@@ -750,6 +844,8 @@ The following security controls were reviewed and verified:
 * Security Verification and Reporting
 
 The environment now follows a stronger enterprise security baseline and demonstrates practical Windows Server security administration skills commonly required in enterprise environments.
+
+---
 
 # Skills Demonstrated
 
