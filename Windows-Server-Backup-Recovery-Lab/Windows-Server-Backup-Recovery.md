@@ -429,7 +429,7 @@ The utility is widely used within enterprise environments for backup administrat
 
 ### Screenshot 25 – Backup Once Wizard Options
 
-![Backup Once Different Options](images/PHASE-5/25-backup-once-different-options.png)
+![Backup Once Different Options](https://raw.githubusercontent.com/KP191817/Windows-Administration-Projects/main/Windows-Server-Backup-Recovery-Lab/images/PHASE-5/25-backup-once-different-options.png)
 
 ### Screenshot 26 – Custom Backup Selected
 
