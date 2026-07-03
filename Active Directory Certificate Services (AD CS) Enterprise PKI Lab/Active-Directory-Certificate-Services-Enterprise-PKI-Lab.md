@@ -204,31 +204,31 @@ At this stage, the role installation was complete while the Certification Author
 
 ### Screenshot 00 – Server Manager Dashboard Overview
 
-![Server Manager Dashboard Overview](Images/PHASE 1/00-server-manager-dashboard-overview.png)
+![Server Manager Dashboard Overview](Images/PHASE-1/00-server-manager-dashboard-overview.png)
 
 ---
 
 ### Screenshot 01 – Active Directory Certificate Services Role Selected
 
-![Active Directory Certificate Services Role Selected](Images/PHASE 1/01-adcs-role-selected.png)
+![Active Directory Certificate Services Role Selected](Images/PHASE-1/01-adcs-role-selected.png)
 
 ---
 
 ### Screenshot 02 – Certification Authority Role Service Selected
 
-![Certification Authority Role Service Selected](Images/PHASE 1/02-certification-authority-selected.png)
+![Certification Authority Role Service Selected](Images/PHASE-1/02-certification-authority-selected.png)
 
 ---
 
 ### Screenshot 03 – Active Directory Certificate Services Installation
 
-![Active Directory Certificate Services Installation](Images/PHASE 1/03-adcs-install.png)
+![Active Directory Certificate Services Installation](Images/PHASE-1/03-adcs-install.png)
 
 ---
 
 ### Screenshot 04 – Active Directory Certificate Services Installation Successful
 
-![Active Directory Certificate Services Installation Successful](Images/PHASE 1/04-adcs-install-successful.png)
+![Active Directory Certificate Services Installation Successful](Images/PHASE-1/04-adcs-install-successful.png)
 
 ---
 
@@ -412,67 +412,67 @@ Successful access to the management console confirmed that the Certification Aut
 
 ### Screenshot 05 – Configure Active Directory Certificate Services
 
-![Configure Active Directory Certificate Services](Images/PHASE 2/05-configure-adcs.png)
+![Configure Active Directory Certificate Services](Images/PHASE-2/05-configure-adcs.png)
 
 ---
 
 ### Screenshot 06 – Certification Authority Role Service Selected
 
-![Certification Authority Role Service Selected](Images/PHASE 2/06-ca-role-service-selected.png)
+![Certification Authority Role Service Selected](Images/PHASE-2/06-ca-role-service-selected.png)
 
 ---
 
 ### Screenshot 07 – Enterprise Certification Authority Selected
 
-![Enterprise Certification Authority Selected](Images/PHASE 2/07-enterprise-ca-selected.png)
+![Enterprise Certification Authority Selected](Images/PHASE-2/07-enterprise-ca-selected.png)
 
 ---
 
 ### Screenshot 08 – Root Certification Authority Selected
 
-![Root Certification Authority Selected](Images/PHASE 2/08-root-ca-selected.png)
+![Root Certification Authority Selected](Images/PHASE-2/08-root-ca-selected.png)
 
 ---
 
 ### Screenshot 09 – Create New Private Key
 
-![Create New Private Key](Images/PHASE 2/09-create-private-key.png)
+![Create New Private Key](Images/PHASE-2/09-create-private-key.png)
 
 ---
 
 ### Screenshot 10 – Cryptography Configuration
 
-![Cryptography Configuration](Images/PHASE 2/10-cryptography-settings.png)
+![Cryptography Configuration](Images/PHASE-2/10-cryptography-settings.png)
 
 ---
 
 ### Screenshot 11 – Certification Authority Name
 
-![Certification Authority Name](Images/PHASE 2/11-ca-name.png)
+![Certification Authority Name](Images/PHASE-2/11-ca-name.png)
 
 ---
 
 ### Screenshot 12 – Certification Authority Validity Period
 
-![Certification Authority Validity Period](Images/PHASE 2/12-ca-validity-period.png)
+![Certification Authority Validity Period](Images/PHASE-2/12-ca-validity-period.png)
 
 ---
 
 ### Screenshot 13 – Active Directory Certificate Services Configuration Summary
 
-![AD CS Configuration Summary](Images/PHASE 2/13-adcs-configuration-summary.png)
+![AD CS Configuration Summary](Images/PHASE-2/13-adcs-configuration-summary.png)
 
 ---
 
 ### Screenshot 14 – Active Directory Certificate Services Configuration Successful
 
-![AD CS Configuration Successful](Images/PHASE 2/14-adcs-configuration-successful.png)
+![AD CS Configuration Successful](Images/PHASE-2/14-adcs-configuration-successful.png)
 
 ---
 
 ### Screenshot 15 – Certification Authority Management Console
 
-![Certification Authority Management Console](Images/PHASE 2/15-certification-authority-console.png)
+![Certification Authority Management Console](Images/PHASE-2/15-certification-authority-console.png)
 
 ---
 
@@ -604,37 +604,37 @@ Successful publication confirmed that the Certification Authority was prepared t
 
 ### Screenshot 16 – Certificate Templates Node
 
-![Certificate Templates Node](Images/PHASE 3/16-certificate-templates-node.png)
+![Certificate Templates Node](Images/PHASE-3/16-certificate-templates-node.png)
 
 ---
 
 ### Screenshot 17 – Certificate Templates Console
 
-![Certificate Templates Console](Images/PHASE 3/17-certificate-templates-console.png)
+![Certificate Templates Console](Images/PHASE-3/17-certificate-templates-console.png)
 
 ---
 
 ### Screenshot 18 – Available Certificate Templates
 
-![Available Certificate Templates](Images/PHASE 3/18-available-certificate-templates.png)
+![Available Certificate Templates](Images/PHASE-3/18-available-certificate-templates.png)
 
 ---
 
 ### Screenshot 19 – Certificate Template to Issue
 
-![Certificate Template to Issue](Images/PHASE 3/19-certificate-template-to-issue.png)
+![Certificate Template to Issue](Images/PHASE-3/19-certificate-template-to-issue.png)
 
 ---
 
 ### Screenshot 20 – User Certificate Template Selected
 
-![User Certificate Template Selected](Images/PHASE 3/20-user-template-selected.png)
+![User Certificate Template Selected](Images/PHASE-3/20-user-template-selected.png)
 
 ---
 
 ### Screenshot 21 – User Certificate Template Published
 
-![User Certificate Template Published](Images/PHASE 3/21-user-template-published.png)
+![User Certificate Template Published](Images/PHASE-3/21-user-template-published.png)
 
 ---
 
@@ -755,37 +755,37 @@ The successful presence of enterprise-issued certificates confirmed that Auto-En
 
 ### Screenshot 22 – Group Policy Management Console
 
-![Group Policy Management Console](Images/PHASE 4/22-group-policy-management.png)
+![Group Policy Management Console](Images/PHASE-4/22-group-policy-management.png)
 
 ---
 
 ### Screenshot 23 – Default Domain Policy
 
-![Default Domain Policy](Images/PHASE 4/23-edit-default-domain-policy.png)
+![Default Domain Policy](Images/PHASE-4/23-edit-default-domain-policy.png)
 
 ---
 
 ### Screenshot 24 – Certificate Auto-Enrollment Policy
 
-![Certificate Auto-Enrollment Policy](Images/PHASE 4/24-auto-enrollment-policy.png)
+![Certificate Auto-Enrollment Policy](Images/PHASE-4/24-auto-enrollment-policy.png)
 
 ---
 
 ### Screenshot 25 – Auto-Enrollment Enabled
 
-![Auto-Enrollment Enabled](Images/PHASE 4/25-auto-enrollment-enabled.png)
+![Auto-Enrollment Enabled](Images/PHASE-4/25-auto-enrollment-enabled.png)
 
 ---
 
 ### Screenshot 26 – Group Policy Update
 
-![Group Policy Update](Images/PHASE 4/26-gpupdate-force.png)
+![Group Policy Update](Images/PHASE-4/26-gpupdate-force.png)
 
 ---
 
 ### Screenshot 27 – Certificate Store Verification
 
-![Certificate Store Verification](Images/PHASE 4/27-certificate-store.png)
+![Certificate Store Verification](Images/PHASE-4/27-certificate-store.png)
 
 ---
 
@@ -931,43 +931,43 @@ This administrative verification provides additional confirmation that certifica
 
 ### Screenshot 28 – Certificates Management Console
 
-![Certificates Management Console](Images/PHASE 5/28-certificate-manager.png)
+![Certificates Management Console](Images/PHASE-5/28-certificate-manager.png)
 
 ---
 
 ### Screenshot 29 – Certificate Enrollment Wizard
 
-![Certificate Enrollment Wizard](Images/PHASE 5/29-certificate-enrollment-wizard.png)
+![Certificate Enrollment Wizard](Images/PHASE-5/29-certificate-enrollment-wizard.png)
 
 ---
 
 ### Screenshot 30 – Active Directory Enrollment Policy
 
-![Active Directory Enrollment Policy](Images/PHASE 5/30-ad-enrollment-policy.png)
+![Active Directory Enrollment Policy](Images/PHASE-5/30-ad-enrollment-policy.png)
 
 ---
 
 ### Screenshot 31 – User Certificate Selected
 
-![User Certificate Selected](Images/PHASE 5/31-user-certificate-selected.png)
+![User Certificate Selected](Images/PHASE-5/31-user-certificate-selected.png)
 
 ---
 
 ### Screenshot 32 – Certificate Enrollment Successful
 
-![Certificate Enrollment Successful](Images/PHASE 5/32-certificate-enrollment-successful.png)
+![Certificate Enrollment Successful](Images/PHASE-5/32-certificate-enrollment-successful.png)
 
 ---
 
 ### Screenshot 33 – Issued User Certificate
 
-![Issued User Certificate](Images/PHASE 5/33-issued-user-certificate.png)
+![Issued User Certificate](Images/PHASE-5/33-issued-user-certificate.png)
 
 ---
 
 ### Screenshot 34 – Issued Certificates Console
 
-![Issued Certificates Console](Images/PHASE 5/34-issued-certificates-console.png)
+![Issued Certificates Console](Images/PHASE-5/34-issued-certificates-console.png)
 
 ---
 
@@ -1113,37 +1113,37 @@ Successful CRL publication completes the certificate revocation lifecycle.
 
 ### Screenshot 35 – Issued Certificates Before Revocation
 
-![Issued Certificates Before Revocation](Images/PHASE 6/35-issued-certificates-before-revocation.png)
+![Issued Certificates Before Revocation](Images/PHASE-6/35-issued-certificates-before-revocation.png)
 
 ---
 
 ### Screenshot 36 – Revoke Certificate
 
-![Revoke Certificate](Images/PHASE 6/36-revoke-certificate-options.png)
+![Revoke Certificate](Images/PHASE-6/36-revoke-certificate-options.png)
 
 ---
 
 ### Screenshot 37 – Certificate Revocation Reason
 
-![Certificate Revocation Reason](Images/PHASE 6/37-certificate-revocation-reason.png)
+![Certificate Revocation Reason](Images/PHASE-6/37-certificate-revocation-reason.png)
 
 ---
 
 ### Screenshot 38 – Revoked Certificates
 
-![Revoked Certificates](Images/PHASE 6/38-revoked-certificates.png)
+![Revoked Certificates](Images/PHASE-6/38-revoked-certificates.png)
 
 ---
 
 ### Screenshot 39 – Publish New Certificate Revocation List
 
-![Publish New CRL](Images/PHASE 6/39-publish-new-crl.png)
+![Publish New CRL](Images/PHASE-6/39-publish-new-crl.png)
 
 ---
 
 ### Screenshot 40 – Certificate Revocation List Published
 
-![Certificate Revocation List Published](Images/PHASE 6/40-crl-published.png)
+![Certificate Revocation List Published](Images/PHASE-6/40-crl-published.png)
 
 ---
 
@@ -1283,43 +1283,43 @@ Verification confirmed that the Certification Authority backup was complete and 
 
 ### Screenshot 41 – Certification Authority Backup
 
-![Certification Authority Backup](Images/PHASE 7/41-backup-ca-option.png)
+![Certification Authority Backup](Images/PHASE-7/41-backup-ca-option.png)
 
 ---
 
 ### Screenshot 42 – Certification Authority Backup Wizard
 
-![Certification Authority Backup Wizard](Images/PHASE 7/42-ca-backup-wizard.png)
+![Certification Authority Backup Wizard](Images/PHASE-7/42-ca-backup-wizard.png)
 
 ---
 
 ### Screenshot 43 – Backup Components Selected
 
-![Backup Components Selected](Images/PHASE 7/43-backup-items-selected.png)
+![Backup Components Selected](Images/PHASE-7/43-backup-items-selected.png)
 
 ---
 
 ### Screenshot 44 – Backup Location
 
-![Backup Location](Images/PHASE 7/44-backup-location.png)
+![Backup Location](Images/PHASE-7/44-backup-location.png)
 
 ---
 
 ### Screenshot 45 – Backup Password
 
-![Backup Password](Images/PHASE 7/45-backup-password.png)
+![Backup Password](Images/PHASE-7/45-backup-password.png)
 
 ---
 
 ### Screenshot 46 – Certification Authority Backup Successful
 
-![Certification Authority Backup Successful](Images/PHASE 7/46-ca-backup-successful.png)
+![Certification Authority Backup Successful](Images/PHASE-7/46-ca-backup-successful.png)
 
 ---
 
 ### Screenshot 47 – Certification Authority Backup Files
 
-![Certification Authority Backup Files](Images/PHASE 7/47-ca-backup-files.png)
+![Certification Authority Backup Files](Images/PHASE-7/47-ca-backup-files.png)
 
 ---
 
@@ -1451,37 +1451,37 @@ Successful execution confirms that the Certification Authority is functioning co
 
 ### Screenshot 48 – Windows PowerShell (Administrator)
 
-![Windows PowerShell (Administrator)](Images/PHASE 8/48-powershell-admin.png)
+![Windows PowerShell (Administrator)](Images/PHASE-8/48-powershell-admin.png)
 
 ---
 
 ### Screenshot 49 – Certificate Services Running
 
-![Certificate Services Running](Images/PHASE 8/49-certsvc-running.png)
+![Certificate Services Running](Images/PHASE-8/49-certsvc-running.png)
 
 ---
 
 ### Screenshot 50 – AD CS Feature Installed
 
-![AD CS Feature Installed](Images/PHASE 8/50-adcs-feature-installed.png)
+![AD CS Feature Installed](Images/PHASE-8/50-adcs-feature-installed.png)
 
 ---
 
 ### Screenshot 51 – CertUtil Connectivity Test
 
-![CertUtil Connectivity Test](Images/PHASE 8/51-certutil-ping.png)
+![CertUtil Connectivity Test](Images/PHASE-8/51-certutil-ping.png)
 
 ---
 
 ### Screenshot 52 – Certification Authority Information
 
-![Certification Authority Information](Images/PHASE 8/52-certutil-cainfo.png)
+![Certification Authority Information](Images/PHASE-8/52-certutil-cainfo.png)
 
 ---
 
 ### Screenshot 53 – CertUtil Dump Output
 
-![CertUtil Dump Output](Images/PHASE 8/53-certutil-dump.png)
+![CertUtil Dump Output](Images/PHASE-8/53-certutil-dump.png)
 
 ---
 
@@ -1600,31 +1600,31 @@ Successful completion of these administrative checks demonstrates that the Publi
 
 ### Screenshot 54 – Certification Authority Operational Status
 
-![Certification Authority Operational Status](Images/PHASE 9/54-ca-operational.png)
+![Certification Authority Operational Status](Images/PHASE-9/54-ca-operational.png)
 
 ---
 
 ### Screenshot 55 – Issued Certificates
 
-![Issued Certificates](Images/PHASE 9/55-issued-certificates.png)
+![Issued Certificates](Images/PHASE-9/55-issued-certificates.png)
 
 ---
 
 ### Screenshot 56 – Revoked Certificates
 
-![Revoked Certificates](Images/PHASE 9/56-revoked-certificates.png)
+![Revoked Certificates](Images/PHASE-9/56-revoked-certificates.png)
 
 ---
 
 ### Screenshot 57 – Published Certificate Templates
 
-![Published Certificate Templates](Images/PHASE 9/57-certificate-templates.png)
+![Published Certificate Templates](Images/PHASE-9/57-certificate-templates.png)
 
 ---
 
 ### Screenshot 58 – Enterprise PKI Validation
 
-![Enterprise PKI Validation](Images/PHASE 9/58-enterprise-pki-validation.png)
+![Enterprise PKI Validation](Images/PHASE-9/58-enterprise-pki-validation.png)
 
 ---
 
@@ -1720,19 +1720,19 @@ Verification of backup availability provides assurance that the Certification Au
 
 ### Screenshot 59 – Final Certification Authority Review
 
-![Final Certification Authority Review](Images/PHASE 10/59-final-ca-review.png)
+![Final Certification Authority Review](Images/PHASE-10/59-final-ca-review.png)
 
 ---
 
 ### Screenshot 60 – Certificate Services Running
 
-![Certificate Services Running](Images/PHASE 10/60-certsvc-running.png)
+![Certificate Services Running](Images/PHASE-10/60-certsvc-running.png)
 
 ---
 
 ### Screenshot 61 – Certification Authority Backup Verification
 
-![Certification Authority Backup Verification](Images/PHASE 10/61-ca-backup-verification.png)
+![Certification Authority Backup Verification](Images/PHASE-10/61-ca-backup-verification.png)
 
 ---
 
